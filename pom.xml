@@ -26,7 +26,6 @@
 	<distributionManagement>
 		<repository>
 			<id>nexus-esprit</id>
-			<name>nexus-esprit</name>
 			<url>http://localhost:8081/nexus/content/repositories/nexus-esprit/</url>
 		</repository>
 	</distributionManagement>
