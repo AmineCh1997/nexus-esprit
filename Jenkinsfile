@@ -51,7 +51,7 @@ pipeline {
                         nexusArtifactUploader(
                             nexusVersion: NEXUS_VERSION,
                             protocol: NEXUS_PROTOCOL,
-                            nexusUrl: 'http://localhost:8081/nexus/content/repositories/nexus-esprit/',
+                            nexusUrl: 'nexus',
                             groupId: pom.groupId,
                             version: pom.version,
                             repository: NEXUS_REPOSITORY,
