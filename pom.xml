@@ -13,11 +13,21 @@
 	</properties>
 	
 
+	<repositories>
+        <repository>
+            <id>maven-demo</id>
+            <url>http://localhost:8081/nexus/content/repositories/nexus-esprit/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
 	<distributionManagement>
 		<repository>
-			<id>nexus-snapshots</id>
-			<name>snapshots</name>
-			<url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+			<id>maven-demo</id>
+			<name>maven-demo</name>
+			<url>http://localhost:8081/nexus/content/repositories/nexus-esprit/</url>
 		</repository>
 	</distributionManagement>
 
